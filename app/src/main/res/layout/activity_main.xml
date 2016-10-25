@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.heqifan.hw_601.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="000"
+        android:id="@+id/textView" />
+    <ImageView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonScissor1"
+        android:text="Scissor!"
+        android:layout_marginTop="34dp"
+        android:layout_below="@+id/buttonRock1"
+        android:layout_alignStart="@+id/buttonRock1" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ButtonPaper1"
+        android:text="Paper!"
+        android:layout_below="@+id/buttonScissor1"
+        android:layout_alignStart="@+id/buttonScissor1"
+        android:layout_marginTop="41dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonReset"
+        android:text = "Reset"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/ButtonPaper1"
+        android:layout_marginStart="11dp"
+        android:layout_marginBottom="64dp" />
+
+    <Button
+        android:id = "@+id/buttonShow"
+        android:text = "Show!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/buttonReset"
+        android:layout_alignBottom="@+id/buttonReset"
+        android:layout_toEndOf="@+id/buttonReset"
+        android:layout_marginStart="52dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonRock2"
+        android:text = "Rock!"
+        android:layout_above="@+id/buttonScissor1"
+        android:layout_alignStart="@+id/buttonShow" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonRock1"
+        android:text = "Rock!"
+        android:layout_marginStart="34dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="46dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonScissor2"
+        android:text = "Scissor!!"
+        android:layout_alignBaseline="@+id/buttonScissor1"
+        android:layout_alignBottom="@+id/buttonScissor1"
+        android:layout_alignEnd="@+id/buttonRock2" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ButtonPaper2"
+        android:text="Paper!"
+        android:layout_alignBaseline="@+id/ButtonPaper1"
+        android:layout_alignBottom="@+id/ButtonPaper1"
+        android:layout_alignEnd="@+id/buttonScissor2" />
+
+
+</RelativeLayout>
