@@ -1,20 +1,26 @@
 # EC601HW2
 Create an android app
 
-Word  Display 1.0
+RSP 0.0
 
-This is a simple application which can display text you typed in input block.
-You can use it as a simple text board.
+This is a simple Rock-Scissor-Paper game.
+
 The apk is built by Android Studio 2.2.
-Word Display supports most of android devices with different android versions and screens.
+RSP supports most of android devices with different android versions and screens.
 I run it in Google Nexus5 and Sony Xperia Z5 Premium successfully.
 
-To install  Word Display on your android device, you should copy worddisplay.apk in your phone storage. 
+To install  RSP on your android device, you should copy RSP00.apk in your phone storage. 
 Then go to the file location click open to install.
 If your phone says you cannot install unkonwn sources, you should allow your phone installation of apps from unknown sources. Take Android 6.0 for example, this setting is located in Setting-Security-Unkonwon sources.
 
-After installation, click open Word Display.
-Type anything in input block. Then click "Show" button, your text will be demonstrated on the screen.
-Word Display would not save any text you typed or send them to others, so be free to type.
+After installation, click open RSP00.
 
-In next version, I would add Facebook Login function which you can use facebook account to login the app or share texts to others.
+To start, P1 first make a selection between Rock, Scissor and Paper.
+Then P2 does a selection.
+Finally click the "SHOW" button get the result.
+To start a new game, click"Restart".
+
+
+There is a BUG I haven't fix yet.
+
+In next version, I would modify UI and fix a logical BUG.
