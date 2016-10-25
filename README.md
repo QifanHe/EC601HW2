@@ -21,6 +21,6 @@ Finally click the "SHOW" button get the result.
 To start a new game, click"Restart".
 
 
-There is a BUG I haven't fix yet.
+There is a BUG I haven't fix yet. But it doesn't 
 
-In next version, I would modify UI and fix a logical BUG.
+In the next version, I would modify UI and fix the BUG.
